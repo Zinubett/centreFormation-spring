@@ -79,7 +79,7 @@ public class UserController {
 	    
 	    user.setPwd(userDetails.getPwd());
 	    user.setLogin(userDetails.getLogin());
-	   user.setRole(userDetails.getRole());
+	   user.setRoles(userDetails.getRoles());
 
 	    User updatedUser = userv.save(user);
 	    return updatedUser;
